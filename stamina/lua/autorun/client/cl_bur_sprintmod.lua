@@ -186,7 +186,5 @@ hook.Add( "HUDPaint", "blurstamina", function()
 
 	if ply.BurgerStamina >= 25 then return end
 
-	DrawToyTown( ( 35 + ( 0 - (ply.BurgerStamina/3) ) ) * 0.1  , ScrH() * 2 * ( 1 ) )
+	DrawToyTown( ( 15 + ( 0 - (ply.BurgerStamina/2.5) ) ) * 0.1  , ScrH() * 2 * ( 1 ) )
 end )
-
-
